@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="kn">
+	<!--head start-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<title>Image and Table</title>
+		<!--html style-->
+		<style type="text/css">
+			#pic{
+				width: 150px;
+				height: 200px;
+			}
+		</style>
+
+	</head>
+	<!--body start-->
+	<body>
+		<!--div 1-->
+		<div class="container-fluid bg-info text-center text-white p-5 ">
+			<h1>Image and Table</h1>
+		</div>
+		<!--div 2-->
+		<div class="container bg-warning text-center text-white p-5 ">
+			<h3>Images: (Slime Diaries)</h3>
+		</div>
+		<!--div 3: PICTURE/S-->
+		<div class="container bg-success p-5">
+			<img src="Ranga.jpg" class="img-fluid rounded float-end" id="pic">
+			<img src="Rimuru.webp" class="img-fluid rounded float-start" id="pic">
+			<img src="Souei.jpg" class="img-fluid rounded mx-auto d-block" id="pic">
+		</div>
+		<!--div 4: TABLE-->
+		<div class="container mt-3 bg-danger text-center text-white p-5 ">
+			<h3>Tables</h3>
+			<table class="table table-striped table-hover "><!--table-hover, table-dark, table-bordered, table-warning, table-info, table-primary-->
+		<thead><!--thead: head-title-->
+			<tr><!--row 1-->
+				<th>Image</th>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Origin</th>
+			</tr>
+		<tbody><!--tbody: info's-->
+			<tr><!--row 1-->
+				<th><img src="Rimuru.webp" class="img-fluid rounded mx-auto d-block" id="pic"></th>
+				<th>Rimuru</th>
+				<th>Tempest</th>
+				<th>Slime</th>
+			</tr>
+			<tr><!--row 2-->
+				<th><img src="Souei.jpg" class="img-fluid rounded mx-auto d-block" id="pic"></th>
+				<th>Souei</th>
+				<th></th>
+				<th>Ogre</th>
+			</tr>
+			<tr><!--row 3-->
+				<th><img src="Ranga.jpg" class="img-fluid rounded mx-auto d-block" id="pic"></th>
+				<th>Ranga</th>
+				<th></th>
+				<th>Star Wolf</th>
+			</tr>			
+		</tbody>
+		</thead>
+			</table>
+		</div>
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+	</body>
+</html>
